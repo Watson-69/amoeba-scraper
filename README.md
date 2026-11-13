@@ -45,6 +45,7 @@
 - [Quick Start](#-quick-start)
 - [Configuration](#-configuration)
 - [API Reference](#-api-reference)
+- [Health Check](#-health-check)
 - [Data Model](#-data-model)
 - [Database Schema](#-database-schema)
 - [Project Structure](#-project-structure)
@@ -205,6 +206,12 @@ http://localhost:3000
 | `POST` | `/api/scrape` | Trigger a scrape (targeted or full archive) | — |
 | `GET` | `/api/scrape` | Get last scrape run status | — |
 
+### 🏥 Health Check
+
+| Method | Endpoint | Description | Auth |
+|--------|----------|-------------|------|
+| `GET` | `/api/health` | Health check with database connectivity | — |
+
 #### POST `/api/scrape` — Trigger Scrape
 
 **Request Body:**
@@ -268,6 +275,51 @@ curl http://localhost:3000/api/scrape
     "items_updated": 5,
     "started_at": "2024-01-15T10:30:00.000Z",
     "completed_at": "2024-01-15T10:32:15.000Z"
+  }
+}
+```
+
+---
+
+### 🏥 Health Check
+
+| Method | Endpoint | Description | Auth |
+|--------|----------|-------------|------|
+| `GET` | `/api/health` | Health check with database connectivity | — |
+
+```bash
+curl http://localhost:3000/api/health
+```
+
+**Response (healthy):**
+```json
+{
+  "ok": true,
+  "status": "healthy",
+  "timestamp": "2024-01-15T10:30:00.000Z",
+  "checks": {
+    "database": {
+      "status": "up",
+      "latency_ms": 5
+    },
+    "uptime_seconds": 3600,
+    "memory_mb": 45,
+    "version": "1.0.0"
+  }
+}
+```
+
+**Response (unhealthy):**
+```json
+{
+  "ok": false,
+  "status": "unhealthy",
+  "timestamp": "2024-01-15T10:30:00.000Z",
+  "checks": {
+    "database": {
+      "status": "down",
+      "error": "connect ECONNREFUSED"
+    }
   }
 }
 ```
