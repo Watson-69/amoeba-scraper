@@ -55,57 +55,6 @@
 
 ---
 
-## 📊 Repository Statistics
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://img.shields.io/github/stars/Watson-69/amoeba-scraper?style=for-the-badge&logo=github&color=FFD700&label=Stars&logoColor=white&labelColor=24292e" alt="Stars" />
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/github/forks/Watson-69/amoeba-scraper?style=for-the-badge&logo=github&color=FF6B6B&label=Forks&logoColor=white&labelColor=24292e" alt="Forks" />
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/github/issues/Watson-69/amoeba-scraper?style=for-the-badge&logo=github&color=4FACFE&label=Issues&logoColor=white&labelColor=24292e" alt="Issues" />
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/github/last-commit/Watson-69/amoeba-scraper?style=for-the-badge&logo=git&color=F093FB&label=Last Commit&logoColor=white&labelColor=24292e" alt="Last Commit" />
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="https://img.shields.io/github/watchers/Watson-69/amoeba-scraper?style=for-the-badge&logo=github&color=8B5CF6&label=Watchers&logoColor=white&labelColor=24292e" alt="Watchers" />
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/github/contributors/Watson-69/amoeba-scraper?style=for-the-badge&logo=github&color=10B981&label=Contributors&logoColor=white&labelColor=24292e" alt="Contributors" />
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/github/license/Watson-69/amoeba-scraper?style=for-the-badge&logo=github&color=F59E0B&label=License&logoColor=white&labelColor=24292e" alt="License" />
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/github/repo-size/Watson-69/amoeba-scraper?style=for-the-badge&logo=github&color=EC4899&label=Repo Size&logoColor=white&labelColor=24292e" alt="Repo Size" />
-      </td>
-    </tr>
-  </table>
-</div>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Commits-41-blue?style=for-the-badge&logo=git&logoColor=white&labelColor=24292e" alt="Commits" />
-  <img src="https://img.shields.io/badge/Lines%20of%20Code-8.5k-4FACFE?style=for-the-badge&logo=code&logoColor=white&labelColor=24292e" alt="Lines of Code" />
-  <img src="https://img.shields.io/badge/TypeScript-100%25-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=24292e" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Tests-Passing-10B981?style=for-the-badge&logo=vitest&logoColor=white&labelColor=24292e" alt="Tests" />
-</div>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Node.js-20%2B-339933?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=24292e" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white&labelColor=24292e" alt="Next.js" />
-  <img src="https://img.shields.io/badge/MySQL-8%2B-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=24292e" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Cheerio-1.2-FF6B6B?style=for-the-badge&logo=cheerio&logoColor=white&labelColor=24292e" alt="Cheerio" />
-</div>
-
----
-
 ## 🌟 Project Overview
 
 **amoeba-scraper** is a **production-ready REST API** that programmatically extracts game metadata from **[FitGirl Repacks](https://fitgirl-repacks.site)** — one of the most trusted sources for compressed game repacks. The API scrapes, normalizes, and stores game information into a MySQL database, exposing it through clean, well-documented endpoints.
