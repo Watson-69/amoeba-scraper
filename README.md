@@ -37,6 +37,51 @@
 
 ---
 
+## 📊 Repository Statistics
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://img.shields.io/github/stars/Watson-69/amoeba-scraper?style=for-the-badge&logo=github&color=FFD700&label=Stars&logoColor=white&labelColor=24292e" alt="Stars" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/github/forks/Watson-69/amoeba-scraper?style=for-the-badge&logo=github&color=FF6B6B&label=Forks&logoColor=white&labelColor=24292e" alt="Forks" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/github/issues/Watson-69/amoeba-scraper?style=for-the-badge&logo=github&color=4FACFE&label=Issues&logoColor=white&labelColor=24292e" alt="Issues" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/github/last-commit/Watson-69/amoeba-scraper?style=for-the-badge&logo=git&color=F093FB&label=Last Commit&logoColor=white&labelColor=24292e" alt="Last Commit" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://img.shields.io/github/watchers/Watson-69/amoeba-scraper?style=for-the-badge&logo=github&color=8B5CF6&label=Watchers&logoColor=white&labelColor=24292e" alt="Watchers" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/github/contributors/Watson-69/amoeba-scraper?style=for-the-badge&logo=github&color=10B981&label=Contributors&logoColor=white&labelColor=24292e" alt="Contributors" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/github/license/Watson-69/amoeba-scraper?style=for-the-badge&logo=github&color=F59E0B&label=License&logoColor=white&labelColor=24292e" alt="License" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/github/repo-size/Watson-69/amoeba-scraper?style=for-the-badge&logo=github&color=EC4899&label=Repo Size&logoColor=white&labelColor=24292e" alt="Repo Size" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Watson-69&repo=amoeba-scraper&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="Repo Stats" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Watson-69&repo=amoeba-scraper&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</div>
+
+---
+
 ## 🌟 Project Overview
 
 <div align="center">
