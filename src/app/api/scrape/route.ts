@@ -2,6 +2,7 @@ import type { NextRequest } from 'next/server';
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
 import { runScrape } from '@/lib/scrape-service';
+import { scrapeRateLimiter } from '@/lib/rate-limiter';
 
 const scrapeBodySchema = z.object({
   query: z.string().optional(),
@@ -12,6 +13,9 @@ const scrapeBodySchema = z.object({
 });
 
 export async function POST(req: NextRequest) {
+  const rateLimitResponse = scrapeRateLimiter(req);
+  if (rateLimitResponse) return rateLimitResponse;
+
   try {
     const body = await req.json().catch(() => ({}));
     const parsed = scrapeBodySchema.safeParse(body);
