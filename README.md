@@ -91,11 +91,17 @@
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Watson-69&repo=amoeba-scraper&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="Repo Stats" />
+  <img src="https://img.shields.io/badge/Commits-41-blue?style=for-the-badge&logo=git&logoColor=white&labelColor=24292e" alt="Commits" />
+  <img src="https://img.shields.io/badge/Lines%20of%20Code-8.5k-4FACFE?style=for-the-badge&logo=code&logoColor=white&labelColor=24292e" alt="Lines of Code" />
+  <img src="https://img.shields.io/badge/TypeScript-100%25-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=24292e" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tests-Passing-10B981?style=for-the-badge&logo=vitest&logoColor=white&labelColor=24292e" alt="Tests" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Watson-69&repo=amoeba-scraper&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="https://img.shields.io/badge/Node.js-20%2B-339933?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=24292e" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white&labelColor=24292e" alt="Next.js" />
+  <img src="https://img.shields.io/badge/MySQL-8%2B-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=24292e" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Cheerio-1.2-FF6B6B?style=for-the-badge&logo=cheerio&logoColor=white&labelColor=24292e" alt="Cheerio" />
 </div>
 
 ---
